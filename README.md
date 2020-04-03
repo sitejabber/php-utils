@@ -1,8 +1,23 @@
-# PHP Payload Encryption
+# PHP Utils
 
 Library for user's payload encryption used with Sitejabber.
 
-# Usage
+
+## Installation
+
+Installation is easy using Composer. Just run the following on the
+command line:
+
+```
+composer require sitejabber/php-utils
+```
+
+#### Without composer
+
+You can also clone the repository or extract the [ZIP](https://github.com/sitejabber/php-utils/archive/master.zip). Then have to add a `require 'php-utils-master/src/Utils.php';` line.
+
+
+## Usage
 
 - Get your API keys on https://biz.sitejabber.com/account
 - JSON encode your user data
