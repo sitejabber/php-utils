@@ -30,7 +30,7 @@ use Sitejabber\Utils;
 
 $userData = [
 	'email'		=> 'janedoe@gmail.com',
-	'order_data'	=> '06-13-2013',
+	'order_date'	=> '06-13-2013',
 	'order_id'	=> '1234',
 	'first_name'	=> 'Jane',
 	'last_name'	=> 'Doe'
