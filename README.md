@@ -19,7 +19,7 @@ You can also clone the repository or extract the [ZIP](https://github.com/siteja
 
 ## Usage
 
-- Get your API keys on https://biz.sitejabber.com/account
+- Get your credentials on https://biz.sitejabber.com/account
 - JSON encode your user data
 - Call the encrypt method
 - URL-encode the result
@@ -37,6 +37,6 @@ $userData = [
 ];
 $json = json_encode($userData);
 $sitejabber = new Utils; 
-$encryptedData = $sitejabber->encrypt($json, $API_SECRET);
-$feedbackLink = "https://www.sitejabber.com/biz-review?key=API_KEY&payload=" . urlencode($encryptedData);
+$encryptedData = $sitejabber->encrypt($json, $CLIENT_ENCRYPTION KEY);
+$feedbackLink = "https://www.sitejabber.com/biz-review?key=CLIENT_ID&payload=" . urlencode($encryptedData);
 ```
